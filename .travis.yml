@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "8.5.1"
+install:
+  - npm i
+  - npm i -g stylelint
+script: 
+  - npm run stylelint
