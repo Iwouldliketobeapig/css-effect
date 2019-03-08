@@ -1,0 +1,30 @@
+.stroke {
+  display: flex;
+  flex-direction: column;
+  span {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  span:nth-child(1) {
+    background: url('./imgs/abstract.jpeg');
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #bfbcbc;
+  }
+  span:nth-child(2) {
+    background: linear-gradient(to right, #bfbcbc, #1997ce);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  span:nth-child(3) {
+    display: inline-block;
+    width: 500px;
+    height: 335px;
+    line-height: 335px;
+    text-align: center;
+    background: url(./imgs/fresh.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #bfbcbc;
+  }
+}
